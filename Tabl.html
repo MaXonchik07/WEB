@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>таблица</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <form action="registr.html">
+        <button>Зарегестрироваться</button>
+    </form>
+    <h1>Форма заказа товара</h1>
+    <form>
+        <table border="0" width="620" height="360px">
+            <tr>
+                <td class="text" height="30px">
+                    <label class="text" for="last_name">Фамилия</label>
+                    <input pattern="[А-Яа-я]{2,}" required class="text" type="text" id="last_name">
+                </td>
+                <td rowspan="4" width="300px" height="50px">
+                    <div class="deliv">
+                        <b>Доставка</b>
+                    </div>
+                    <div class="deliv_choise">
+                        <input required type="radio" id="mail" name="choise">
+                        <label for="mail">Почта</label>
+                    </div>
+                    <div class="deliv_choise">
+                        <input checked type="radio" id="ppl" name="choise">
+                        <label for="ppl">Курьер</label>
+                    </div>
+                    <div class="deliv_choise">
+                        <input required type="radio" id="myself" name="choise">
+                        <label for="myself">Самовывоз</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="text" height="30px">
+                    <label for="pass">Пароль</label>
+                    <input minlength="8" required type="password" id="pass">
+                </td>
+            </tr>
+            <tr>
+                <td class="text" height="30px">
+                    <label for="address">Адрес получателя</label>
+                    <input required type="text" id="address">
+                </td>
+            </tr>
+            <tr>
+                <td class="text" height="30px">
+                    <label for="count">Количество</label>
+                    <input value="1" required type="number" id="count" max="1000" min="1">
+                </td>
+            </tr>
+            <tr>
+                <td class="text" rowspan="5">
+                    <label for="decision">Наименование товара</label>
+                    <select name="product" id="decision">
+                        <option value="candy">Конфеты</option>
+                        <option value="cookie">Печенье</option>
+                        <option value="cake">Пирожное</option>
+                        <option value="pie">Торт</option>
+                        <option value="ice cream">Мороженое</option>
+                    </select>
+                </td>
+                <td class="content">
+                    <label for="order"><i>Требуется приходной ордер</i></label>
+                    <input type="checkbox" id="order">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" width="200px">
+                    <div class="content">
+                        <label for="extara_info"><b>Дополнительная информация:</b></label>
+                        <textarea class="comment" name="dop_info" id="extara_info"></textarea>
+                        <input type="submit">
+                        <input type="reset" value="Обновить">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

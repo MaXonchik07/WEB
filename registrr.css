@@ -1,0 +1,19 @@
+.direct{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    margin-top: 12%;
+}
+h1{
+    font-size: 350%;
+}
+body{
+    font-family: Roboto slab
+}
+.textt{
+    margin-bottom: 7px;
+}
+.place{
+    text-align: left;
+}

@@ -1,0 +1,763 @@
+:root{
+    color: #0689e2;
+}
+body{
+    background-color: black;
+    font-family: "Roboto Slab"
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.telephone{
+    margin-right: 0.5%;
+}
+a{
+    text-decoration: none;
+    color: #0689e2;
+}
+.block1{
+    background-image: url(images/1\ Bugatti\ Bolide-photoaidcom-darken\ \(1\).jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.wrapper{
+    margin: auto;
+}
+.mini_block1{
+    margin-left: 15%;
+    justify-content: space-between;
+    background-color: black;
+    width: 650px;
+    height: 200px;
+    margin-top: 100px;
+    border-radius: 4%;
+    text-align: center;
+}
+.back_img{
+    animation: back-img 1.5s infinite; 
+}
+.main_img{
+    animation: main-img 0.1ms infinite;
+}
+.main_img:hover{
+    animation: normal;
+}
+@keyframes back-img {
+    0% {
+		box-shadow: 0 0 0 0 rgba(252, 213, 141, 0.4);
+	}
+	70% {
+		box-shadow: 0 0 0 10px rgba(228, 25, 49, 0);
+	}
+	100% {
+		box-shadow: 0 0 0 0 rgba(228, 25, 49, 0);
+	}
+}
+@keyframes main-img {
+    50%{
+        transform: rotate(-36000deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.text_note{
+    margin-top: 200px;
+    margin-right: 100px;
+}
+.mini_block2{
+    margin-top: 50px;
+    margin-right:10px;
+    font-family: "Nunito Sans";
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.mini_block3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+    width: 100%;
+}
+#about{
+    margin-right: 210px;
+    background-color: black;
+    border-radius: 10%;
+}
+#about1{
+    margin-left: 180px;
+    background-color: black;
+    border-radius: 10%;
+}
+.a_link{
+    color: #0689e2;;
+}
+a:hover{
+    color: blanchedalmond;
+}
+input:hover{
+    color: blanchedalmond;
+}
+button{
+    background-color: grey;
+    border-radius: 7%;
+    border-color: black;
+    border: none;
+}
+.back_img{
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 270px;
+    height: 250px;
+    right: 400px;
+    top: 100px;
+    border-radius: 5%;
+}
+.main_img{
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 150px;
+    width: 270px;
+    height: 250px;
+    right: 280px;
+    border-radius: 5%;
+}
+.news{
+    text-align: center;
+    background-color: #0c0e0c;
+    padding-bottom: 33px;
+    padding-top: 1px;
+    width: 100%;
+
+}
+.block_news{
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    width: 450px;
+    text-align: justify;
+    font-family: "Nunito Sans";
+    color: #7dc8fb;
+}
+.images_news{
+    width: 450px;
+}
+.menu_news{
+    display: flex;
+    width: 100%;
+}
+.menu2{
+    width: 100%;
+}
+.menu_direct{
+    text-align: center;
+}   
+.img_news{
+    width: 700px;
+    margin-left: 1%;
+}
+.img_news1{
+    display: inline-block;
+    vertical-align: middle;
+    width: 745px;    
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0.5%;
+}
+#LOGOO{
+    width: 75px;
+    margin-top: 10px;
+}
+#logo_name{
+    margin-left: 5px;
+}
+.text_menu{
+    width:63%;
+    text-align: justify;
+    font-family: "Nunito Sans";
+    color: #7dc8fb;
+}
+.zagolov{
+    font-size: x-large;
+    color: #0689e2;
+}
+.footer{
+    justify-items: center;
+    background-color: #0c0e0c;
+    padding-top: 30px;
+}
+.footer1{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.footer2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.offers{
+    margin-left: 230px;
+}
+.send{
+    width: 100%;
+    background-color: #0689e2;
+    border: none;
+}
+input{
+    width: 600px;
+    height: 40px;
+    background-color: grey;
+    border-color: grey;
+}
+#comment{
+    resize: none;
+    width: 100%;
+    height: 175px;
+}
+.comm{
+    width: 100%;
+}
+#comment:hover{
+    color: antiquewhite;
+}
+table{
+    border-spacing: 20px;
+}
+.map-widget{
+    margin-top: 32px;
+}
+.offers1{
+    margin-top: 2%;
+}
+.more{
+    background-color: #7dc8fb;
+    border: #7dc8fb solid;
+    border-radius: 100%;
+    width: 50%;
+    justify-self: center;
+}
+#NEWS{
+    color: #0689e2;
+}
+#menu_color{
+    color: #0689e2;
+}
+.tabl{
+    background-color: gray;
+    color: white;
+    width: 100%;
+}
+::placeholder{
+    color: white;
+}
+.tesla{
+    margin-right: 0.5%;
+    margin-left: 1%;
+}
+#menu2_zagol{
+    margin-top: 25px;
+}
+#img_ferrari{
+    margin-top: 5px;
+    float: left;
+    margin-right: 2%;
+}
+#img_lamba{
+    margin-top: 5px;
+    margin-left: 0;
+}
+.lamba_text{
+    margin-left: 2%;
+}
+.logo_contact{
+    width: 40px;
+    margin: 2px;
+}
+.contact{
+    width: 50%;
+}
+.text_menu1{
+    width: 100%;
+    text-align: justify;
+    font-family: "Nunito Sans";
+    color: #7dc8fb;
+}
+.about3{
+    width: 1000px;
+    height: 30px;
+    margin-left: 50px;
+}
+.img_block{
+    width: 100%;
+}
+.menu2{
+    background-color: #0c0e0c;
+    padding-bottom: 9px;
+    margin-top: 10px;
+}
+.menu1{
+    margin-right: 1%;
+}
+.menu3{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.img_tesla{
+    margin-top: 4.5%;
+}
+.foot_container{
+    width: 100%;
+}
+.form_div{
+    width: 100%;
+}
+@media(max-width: 2610px){
+    .menu_second{
+        display: flex;
+        width: 100%;
+    }
+}
+@media (max-width: 2203px){
+    .menu_second{
+        display: flex;
+        width: 100%;
+    }
+}
+@media (max-width: 1730px){
+    #img_ferrari{
+        float: none;
+    }
+    .menu1_new{
+        display: flex;
+    }
+    .text_menu1{
+        margin-left: 2.5%;
+    }
+    .map-widget{
+        width: 50%;
+    }
+}
+@media(max-width: 1708px){
+    .text_menu1{
+        font-size: 15px;
+    }
+    .text_menu{
+        font-size: 15px;
+    }
+    .zagolov{
+        font-size: 22px;
+    }
+}
+@media(max-width: 1613px){
+    .text_menu1{
+        font-size: 14.5px;
+    }
+    .text_menu{
+        font-size: 14.5px;
+    }
+    .zagolov{
+        font-size: 21px;
+    }
+}
+@media(max-width: 1571px){
+    .text_menu1{
+        font-size: 14px;
+    }
+    .text_menu{
+        font-size: 14px;
+    }
+    .zagolov{
+        font-size: 20px;
+    }
+}
+@media (max-width: 1558px){
+    .img_2{
+        display: none;
+    }
+    .mini_block1{
+        margin: auto;
+    }
+    .mini_block3{
+        margin: 0;
+        justify-content: space-between;
+    }
+}
+@media(max-width: 1488px){
+    .text_menu1{
+        font-size: 13.5px;
+    }
+    .text_menu{
+        font-size: 13.5px;
+    }
+    .zagolov{
+        font-size: 19px;
+    }
+}
+@media(max-width: 1450px){
+    .text_menu1{
+        font-size: 13px;
+    }
+    .text_menu{
+        font-size: 13px;
+    }
+    .zagolov{
+        font-size: 18px;
+    }
+}
+@media (max-width: 1392px){
+    .block1{
+        width: 100%;   
+    }
+    .block_news{
+        flex-direction: column;
+    }
+    .menu_second{
+        align-items: center;
+        text-align: center;
+    }
+    .img_news1{
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        
+    }
+    .tesla{
+        margin-right: 0;
+    }
+    .news{
+        width: 100%;
+        
+    }
+    .blocks_news{
+        justify-items: center;
+        margin-bottom: 3%;
+    }
+    .images_news{
+        width: 75%;
+    }
+    #img_ferrari{
+        float: none;
+        margin-right: 0;
+
+    }
+    .ferra{
+        text-align: center;
+    }
+    .text{
+        width: 75%;   
+    }
+    .img2{
+        display: none;
+    }
+    .back_img{
+        display: none;
+    }
+    .main_img{
+        display: none
+    }
+    .img_news{
+        width: 75%;
+        text-align: center;
+        margin: 0;
+    }
+    .text_menu1{    
+        width: 65%;
+        margin-left: 0;
+    }
+    .menu_second{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .menu1{
+        width: 100%;
+    }
+    .menu1_new{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .text_menu1{
+        width: 75%;
+    }
+    .text_menu{
+        width: 75%;
+    }
+    .menu3{
+        justify-items: center;  
+    }
+    .lamba_text{
+        margin: 0;
+    }
+    .menu_news{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .footer1{
+        display: block;
+        justify-items: center;
+        align-items: center;
+        margin: auto;
+    }
+    .footer2{
+        flex-direction: column-reverse;
+    }
+    .tabl1{
+        justify-self: center;
+        text-align: center;
+    }
+    .footer{
+        width: 100%;
+        justify-self: center;
+        margin-right: 0;
+    }
+    .offers{
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+    }
+    .offers1{
+        width: 65%;
+    }
+    .wrapper{
+        margin-left: 0;
+    }
+    input{
+        width: 99%;
+    }
+    #comment{
+        width: 100%;
+    }
+    .map-widget{
+        width: 65.5%;
+        height: 400px;
+        margin: auto;
+    }
+    .send{
+        width: 100%;
+        margin-left: 0;
+        margin: auto;
+        padding: 0;
+    }
+    .contact{
+        font-size: medium;
+        margin-left: 20px;
+        width: 100%;
+    }
+    #about1{
+        margin-right: 70px;
+        margin-left: 25px;
+    }
+    #about{
+        margin-right: 0;
+    }
+    .logo_direct{
+        margin-left: 20px;
+    }
+    .ferra{
+        width: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .lamba_block{
+        width: 100%;
+    }
+}
+@media (max-width: 714px){  
+    header{
+        font-size: 9px;
+        width: 100%;
+    }
+    .block1{
+        width: 100%;   
+    }
+    .block_news{
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+    }
+    .menu_second{
+        align-items: center;
+        text-align: center;
+    }
+    .img_news1{
+        display: block;
+        margin-left: 0;
+        
+    }
+    .tesla{
+        margin-right: 0;
+    }
+    .news{
+        width: 100%;
+        
+    }
+    .blocks_news{
+        justify-items: center;
+        margin-bottom: 3%;
+    }
+    .images_news{
+        width: 75%;
+    }
+    #img_ferrari{
+        float: none;
+        margin-right: 0;
+
+    }
+    .ferra{
+        text-align: center;
+    }
+    .text{
+        width: 75%;   
+        
+    }
+    .img2{
+        display: none;
+    }
+    .back_img{
+        display: none;
+    }
+    .main_img{
+        display: none
+    }
+    .mini_block1{
+        width: 70%;
+        height: 50%;
+        font-size: 10px;
+    }
+    .img_news{
+        width: 75%;
+        text-align: center;
+    }
+    .text_menu1{
+        width: 75%;
+    }
+    .menu_second{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .menu1{
+        width: 100%;
+        justify-items: center;
+    }
+    .menu1_new{
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+    .text_menu1{
+        width: 75%;
+    }
+    .text_menu{
+        width: 75%;
+    }
+    .menu3{
+        justify-items: center;  
+    }
+    .lamba_text{
+        margin: 0;
+    }
+    .menu_news{
+        align-items: center;
+        text-align: center;
+    }
+    .footer1{
+        display: block;
+        justify-items: center;
+        margin: auto;
+    }
+    .footer2{
+        flex-direction: column-reverse;
+    }
+    .form{
+        text-align: center;
+        justify-items: center;
+        width: 100%;
+    }
+    .tabl1{
+        justify-self: center;
+        text-align: center;
+    }
+    .footer{
+        width: 100%;
+        align-items: center;
+        margin-right: 0;
+    }
+    .offers{
+        justify-self: center;
+        margin-left: 0;
+    }
+    .wrapper{
+        margin-left: 0;
+    }
+    input{
+        width: 100%;
+    }
+    #comment{
+        width: 100%;
+    }
+    .send{
+        width: 103%;
+        margin: auto;
+    }
+    .contact{
+        font-size: medium;
+        margin-left: 20px;
+        width: 50%;
+    }
+    .map-widget{
+        height: 250px;
+    }
+    #about1{
+        margin-right: 70px;
+        margin-left: 25px;
+    }
+    .about3{
+        font-size: x-small;
+    }
+    #about{
+        margin-right: 0;
+    }
+    #LOGOO{
+        width: 55px;
+        margin: auto;
+        margin-top: 4px;
+        margin-left: 10%;
+    }
+}
+@media (max-width: 360px){  
+    header{
+        font-size: 8px;
+        width: 100%;
+        margin: auto;
+    }
+    .mini_block3{
+        justify-content: space-around;
+    }
+    .about3{
+        font-size: 8px;
+    }
+    #LOGOO{
+        width: 40px;
+    }
+}
