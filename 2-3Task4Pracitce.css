@@ -63,10 +63,6 @@ a{
 	}
 }
 @keyframes main-img {
-
-
-
-    
     50%{
         transform: rotate(-36000deg);
     }
