@@ -1,0 +1,129 @@
+body{
+    background-color: #0b1d26;
+    color: white;
+    font-family: sans-serif;
+}
+.col{
+    font-family: sans-serif;
+}
+.nav1{
+    display: flex;
+}
+.e{
+    margin-right: 3%;
+}
+.nav{
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 1.5%;
+}
+.c_nav{
+    justify-content: space-around;
+
+}
+.e_nav{
+    justify-content: end;
+    margin-right: 1.5%;
+}
+.nav_direct{
+    max-width: 100%;
+}
+.imag{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    opacity: 60%;
+    
+}
+.imag1{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    margin-top: 350px;
+}
+.imag2{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    margin-top: 800px;
+}
+.HG{
+    position: relative;
+}
+.logo{
+    margin-left: 2%;
+    font-size: 1.5rem;
+}
+.rectangle{
+    color: #ffdd44;
+    font-family: sans-serif;
+    letter-spacing: 6px;
+    text-align: center;
+    align-items: center;
+}
+.rectangle-img{
+    height: 3px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    
+}
+.sec_block{
+    margin-top: 10%;
+    max-width: 100%;
+    position: relative;
+}
+.block1{
+    margin-top: 60px;
+}
+.block2{
+    text-align: start;
+    width: 150%;
+}
+.block3{
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin-top: 60px;
+}
+.mini_block1{
+    justify-content: flex-end;
+    display: flex;
+    width: 50%;
+}
+.slogan{
+    font-size: 4rem;
+}
+.nums ul{
+    list-style: none;
+    text-align: start;
+    margin-right: 10px;
+    margin-top: 10px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.social-text{
+    writing-mode: vertical-lr;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.social-text p{
+    margin-left: 20px;
+}
+.img-size{
+    width: 10px;
+}
+.scroll{
+    font-size: 1.5rem;
+}
+.gradient{
+    background: linear-gradient(to top, #0b1d26, rgba(11, 29, 38, 0));
+    height: 40%;
+    margin-top: 800px;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
