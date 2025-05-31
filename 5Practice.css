@@ -6,6 +6,11 @@ body{
 .col{
     font-family: sans-serif;
 }
+.main{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
 .nav1{
     display: flex;
 }
@@ -27,28 +32,60 @@ body{
 }
 .nav_direct{
     max-width: 100%;
+    z-index: 1;
+    position: relative;
 }
 .imag{
     position: absolute;
     z-index: 0;
     width: 100%;
-    opacity: 60%;
-    
+    height: 100%;
+    opacity: 60%;   
+}
+.clouds{
+    background-image: url(images/Clouds.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
 }
 .imag1{
     position: absolute;
     z-index: 0;
     width: 100%;
-    margin-top: 350px;
+    height: 100%;
+    top: 350px;
+}
+.Mountains{
+    background-image: url(images/Mountain.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
 }
 .imag2{
     position: absolute;
     z-index: 0;
+    height: 100%;
     width: 100%;
-    margin-top: 800px;
+    top: 550px;
 }
-.HG{
-    position: relative;
+.downMountains{
+    background-image: url(images/downMountain.png);
+    background-repeat: no-repeat;
+    background-position: 35% top;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+
 }
 .logo{
     margin-left: 2%;
@@ -120,10 +157,53 @@ body{
     font-size: 1.5rem;
 }
 .gradient{
-    background: linear-gradient(to top, #0b1d26, rgba(11, 29, 38, 0));
+    background: linear-gradient(to top, #0b1d26, rgba(7, 19, 26, 0));
     height: 40%;
-    margin-top: 800px;
     width: 100%;
     position: absolute;
-    z-index: 10;
+    z-index: 1;
+}
+.content1{
+    margin-top: 10%;
+}
+.cifri{
+    position: absolute;
+}
+.zagolov{
+    display: flex;
+}
+.zagolov1{
+    margin-left: 3.5%;
+    color: #ffdd44;
+}
+.zagolov1 p{
+    letter-spacing: 6px;
+}
+.mini-content{
+    font-size: 400%;
+}
+.link{
+    text-decoration: none;
+    color: #ffdd44;
+}
+.mini-images{
+    width: 100%;
+}
+.cifri1{
+    position: absolute;
+}
+.content2{
+    margin-top: 10%;
+}
+.image-r{
+    padding-left: 100px;
+}
+.image-l{
+    padding-right: 150px;
+}
+.sect1{
+    padding-left: 100px;
+}
+.content3{
+    margin-top: 10%;
 }
