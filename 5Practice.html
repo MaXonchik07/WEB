@@ -7,11 +7,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="5Practice.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&amp;family=Playfair+Display:wght@400&amp;display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
     <title>Курсы</title>
 </head>
 
 <body>
-    <div class="main">
+    <div class="main" id="0">
         <div class="images">
             <div class="imag">
                 <div class="clouds"></div>
@@ -27,13 +36,15 @@
             <div class="row nav">
                 <div class="col logo">MNTN</div>
                 <div class="col nav1 c_nav">
-                    <div>Equipment</div>
-                    <div>About us</div>
-                    <div>Blog</div>
+                    <div><a class="text-decoration-none color" href="#">Equipment</a></div>
+                    <div><a class="text-decoration-none color" href="#">About us</a></div>
+                    <div><a class="text-decoration-none color" href="#">Blog</a></div>
                 </div>
                 <div class="col nav1 e_nav">
-                    <div class="e">I</div>
-                    <div>Account</div>
+                    <div class="e">
+                        <img class="account-icon" src="images/account-icon.png" alt="">
+                    </div>
+                    <div class="acc"><a class="text-decoration-none color" href="#">Account</a></div>
                 </div>
             </div>
         </div>
@@ -41,8 +52,8 @@
             <div class="container block1">
                 <div class="social-text">
                     <p>Follow us</p>
-                    <a href="#"><img src="images/instagram.png" alt=""></a>
-                    <a href="#"><img src="images/Vector.png" alt=""></a>
+                    <a href="#"><img class="social" src="images/instagram.png" alt=""></a>
+                    <a href="#"><img class="social" src="images/Vector.png" alt=""></a>
                 </div>
 
             </div>
@@ -52,30 +63,31 @@
                     <h5>A HIKING GUIDE</h5>
                 </div>
                 <div class="container slogan display-1 mb-3">Be Prepared For The Mountains And Beyond!</div>
-                <div class="container scroll">scroll down
-                    <img src="images/arrow_downward_24px.png" alt="">
+                <div class="container scroll"><a class="text-decoration-none color" href="#-1">scroll down</a>
+                    <a class="text-decoration-none color" href="#-1"><img class="scrollA" src="images/arrow_downward_24px.png" alt=""></a>
                 </div>
             </div>
             <div class="container block3">
                 <div class="container mx-0 mini_block1">
                     <div class="nums">
                         <ul>
-                            <li>Start</li>
-                            <li>01</li>
-                            <li>02</li>
-                            <li>03</li>
+                            <li><a class="text-decoration-none color" href="#0">Start</a></li>
+                            <li><a class="text-decoration-none color" href="#1">01</a></li>
+                            <li><a class="text-decoration-none color" href="#2">02</a></li>
+                            <li><a class="text-decoration-none color" href="#3">03</a></li>
                         </ul>
                     </div>
                     <div class="bar">
-                        <img src="images/Slider.png" alt="">
+                        <img class="bara" src="images/Slider.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
         <div class="gradient"></div>
     </div>
-    <div class="container content1">
-        <div class="row align-items-center">
+    <div id="-1"></div>
+    <div class="container content1" id="1">
+        <div class="row align-items-center row1">
             <div class="col-6 sect">
                 <img class="cifri" src="images/01.png" alt="">
                 <div class="zagolov my-4">
@@ -104,8 +116,8 @@
             </div>
         </div>
     </div>
-    <div class="container content2">
-        <div class="row align-items-center">
+    <div class="container content2" id="2">
+        <div class="row align-items-center row2">
             <div class="col-6 image-l">
                 <img class="mini-images" src="images/2.png" alt="">
             </div>
@@ -128,14 +140,14 @@
                         Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular
                         clothes, which will get heavy and chafe wif they get sweaty or wet.</p>
                 </div>
-                <div>
+                <div class="my-4">
                     <a class="link" href="#">read more -></a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container content3">
-        <div class="row align-items-center">
+    <div class="container content3" id="3">
+        <div class="row align-items-center row1">
             <div class="col-6 sect">
                 <img class="cifri" src="images/03.png" alt="">
                 <div class="zagolov my-4">
@@ -150,7 +162,10 @@
                     <h1 class="mini-content">Understand Your Map & Timing</h1>
                 </div>
                 <div class="text my-4">
-                    <p>To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I  like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction..</p>
+                    <p>To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read
+                        over the guide, study the map, and have a good idea of what to expect. I like to know what my
+                        next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I
+                        make a right turn at the junction..</p>
                 </div>
                 <div class="my-4">
                     <a class="link" href="#">read more -></a>
@@ -161,6 +176,36 @@
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <div class="container foot">
+            <div class="row row3">
+                <div class="col-6 footer1">
+                    <h3 class="mb-4 size1">MNTN</h3>
+                    <p class="footerp">Get out there & discover your next</p>
+                    <p>slope, mountain & destination!</p>
+                    <p class="footer1p">Copyright 2019 MNTN, Inc. Terms & Privacy</p>
+                </div>
+                <div class="col-3 more">
+                    <h4 class="mb-4 size">More on The Blog</h4>
+                    <ul class="listf">
+                        <li><a class="atext" href="#">About MNTN</a></li>
+                        <li><a class="atext" href="#">Contributors & Writers</a></li>
+                        <li><a class="atext" href="#">Write For Us</a></li>
+                        <li><a class="atext" href="#">Contact Us</a></li>
+                        <li><a class="atext" href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 mores">
+                    <h4 class="mb-4 size">More on MNTN</h4>
+                    <ul class="listf">
+                        <li><a class="atext" href="#">The Team</a></li>
+                        <li><a class="atext" href="#">Jobs</a></li>
+                        <li><a class="atext" href="#">Press</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 

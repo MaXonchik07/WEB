@@ -1,7 +1,9 @@
 body{
     background-color: #0b1d26;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 800;
 }
 .col{
     font-family: sans-serif;
@@ -17,23 +19,34 @@ body{
 .e{
     margin-right: 3%;
 }
+a:hover{
+    color: #ffdd44;
+}
+.color{
+    color: white;
+}
 .nav{
     justify-content: space-between;
     width: 100%;
-    padding-top: 1.5%;
+    padding-top: 50px;
+    font-weight: 500;
 }
 .c_nav{
     justify-content: space-around;
-
+    font-family: "Nunito", sans-serif;
+    align-items: center;
 }
 .e_nav{
     justify-content: end;
     margin-right: 1.5%;
+    font-family: "Nunito", sans-serif;
+    align-items: center;
 }
 .nav_direct{
     max-width: 100%;
     z-index: 1;
     position: relative;
+    
 }
 .imag{
     position: absolute;
@@ -85,11 +98,17 @@ body{
     z-index: 0;
     width: 100%;
     height: 100%;
+    
 
+}
+.text{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
 }
 .logo{
     margin-left: 2%;
     font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
 }
 .rectangle{
     color: #ffdd44;
@@ -105,7 +124,7 @@ body{
     
 }
 .sec_block{
-    margin-top: 10%;
+    margin-top: 200px;
     max-width: 100%;
     position: relative;
 }
@@ -139,35 +158,42 @@ body{
     gap: 35px;
     display: flex;
     flex-direction: column;
+    font-family: "Nunito", sans-serif;
 }
 .social-text{
     writing-mode: vertical-lr;
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 10px;
+    gap: 15px;
 }
 .social-text p{
     margin-left: 20px;
+    font-family: "Nunito", sans-serif;
 }
 .img-size{
     width: 10px;
 }
 .scroll{
     font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Nunito", sans-serif;
 }
 .gradient{
     background: linear-gradient(to top, #0b1d26, rgba(7, 19, 26, 0));
-    height: 40%;
+    height: 35%;
     width: 100%;
     position: absolute;
     z-index: 1;
+    bottom: 0;
 }
 .content1{
     margin-top: 10%;
+    position: relative;
 }
 .cifri{
     position: absolute;
+    left: -130px;
 }
 .zagolov{
     display: flex;
@@ -175,6 +201,7 @@ body{
 .zagolov1{
     margin-left: 3.5%;
     color: #ffdd44;
+    font-family: "Nunito", sans-serif;
 }
 .zagolov1 p{
     letter-spacing: 6px;
@@ -185,15 +212,18 @@ body{
 .link{
     text-decoration: none;
     color: #ffdd44;
+    font-family: "Nunito", sans-serif;
 }
 .mini-images{
     width: 100%;
 }
 .cifri1{
     position: absolute;
+    right: 450px;
 }
 .content2{
     margin-top: 10%;
+    position: relative;
 }
 .image-r{
     padding-left: 100px;
@@ -206,4 +236,369 @@ body{
 }
 .content3{
     margin-top: 10%;
+    position: relative;
+}
+.footer{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.footer1{
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+}
+.footer1p{
+    padding-top: 85px;
+    color: grey;
+}
+.listf{
+    list-style: none;
+    text-align: start;
+    padding: 0;
+}
+.atext{
+    text-decoration: none;
+    color: white;
+}
+.listf li{
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+}
+.more{
+    padding-left: 100px;
+    padding-right: 0;
+}
+.mores{
+    padding-left: 140px;
+    padding-right: 0;
+}
+.more h4{
+    color: #ffdd44;
+    font-weight: 800;
+}
+.mores h4{
+    color: #ffdd44;
+    font-weight: 800;
+}
+.footer1 h3{
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+@media(max-width:1530px){
+    .cifri{
+        left: -80px;
+    }    
+}
+@media(max-width:1480px){
+    .cifri{
+        left: -50px;
+    }
+}
+@media(max-width:1399px){
+    .cifri1{
+        right: 275px;
+    }
+    .footer1p{
+        padding-top: 120px;
+    }
+}
+@media(max-width:1199px){
+    .cifri1{
+        right: 180px;
+    }
+    .footer1p{
+        padding-top: 140px;
+    }
+}
+@media(max-width:1017px){
+    .rectangle h5{
+        font-size: 15px;
+    }
+    .slogan{
+        font-size: 3.5rem;
+    }
+}
+@media(max-width:991px){
+    .row1{
+        flex-direction: column;
+    }
+    .downMountains{
+        background-position: 32% top;
+    }
+    .sect{
+        width: 100%;
+        padding: 0;
+    }
+    .image-r{
+        width: 100%;
+        padding: 0;
+    }
+    .image-l{
+        width: 100%;
+        padding: 0;
+    }
+    .sect1{
+        width: 100%;
+        padding: 0;
+    }
+    .row2{
+        flex-direction: column-reverse;
+    }
+    .cifri1{
+        left: -50px;
+    }
+    .row3{
+        flex-direction: column-reverse;
+    }
+    .footer1{
+        width: 100%;
+        padding: 0;
+        font-size: 1.5rem;
+    }
+    .more{
+        width: 100%;
+        padding: 0;
+        font-size: 1.5rem;
+    }
+    .mores{
+        width: 100%;
+        padding: 0;
+        font-size: 1.5rem;
+    }
+    .footer1p{
+        padding: 0;
+        font-size: 1.25rem;
+    }
+    .size{
+        font-size: 2rem;
+    }
+    .size1{
+        font-size: 2.25rem;
+    }
+    .text{
+        font-size: 1.1rem;
+    }
+}
+@media(max-width:926px){
+    .rectangle h5{
+        font-size: 13px;
+    }
+    .rectangle-img{
+        width: 90px;
+    }
+    .slogan{
+        font-size: 3rem;
+    }
+    .scroll{
+        font-size: 1.25rem;
+    }
+    .downMountains{
+        background-position: 29% top;
+    }
+}
+@media(max-width:847px){
+    .rectangle h5{
+        font-size: 11px;
+    }
+    .slogan{
+        font-size: 2.5rem;
+        padding: 0;
+    }
+    .scroll{
+        font-size: 1rem;
+        padding: 0;
+    }
+    .downMountains{
+        background-position: 27% top;
+    }
+}
+@media(max-width:811px){
+    .rectangle h5{
+        font-size: 10px;
+    }
+    .rectangle{ 
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .block2{
+        text-align: center;
+        align-items: center;
+    }
+    .block1{
+        margin: 0;
+        width: 20%;
+    }
+    .block3{
+        margin: 0;
+        width: 20%;
+    }
+    .cifri{
+        left: -15px;
+    }
+    .cifri1{
+        left: -15px;
+    }
+    .downMountains{
+        background-position: 25% top;
+    }
+}
+@media(max-width:699px){
+    .slogan{
+        font-size: 2rem;
+    }
+    .nav{
+        padding-top: 30px;
+    }
+    .scroll{
+        font-size: 0.85rem;
+    }
+    .scrollA{
+        width: 10px;
+    }
+    .rectangle h5{
+        font-size: 9px;
+    }
+    .rectangle-img{
+        width: 80px;
+    }
+    .c_nav{
+        font-size: 13px;
+        padding: 0;
+    }
+    .e_nav{
+        font-size: 13px;
+        padding: 0;
+    }
+    .account-icon{
+        width: 17px;
+    }
+    .logo{
+        font-size: 19px;
+    }
+}
+@media(max-width:579px){
+    .sect{
+        width: 90%;
+    }
+    .image-r{
+        width: 90%;
+    }
+    .sect1{
+        width: 90%;
+    }
+    .image-l{
+        width: 90%;
+    }
+    .footer1{
+        width: 90%;
+    }
+    .more{
+        width: 90%;
+    }
+    .mores{
+        width: 90%;
+    }
+    .foot{
+        width: 90%;
+    }
+    .slogan{
+        font-size: 1.75rem;
+    }
+    .scroll{
+        font-size: 0.75rem;
+    }
+    .scrollA{
+        width: 9px;;
+    }
+}
+@media(max-width:520px){
+    .slogan{
+        font-size: 1.5rem;
+    }
+    .scroll{
+        font-size: 0.7rem;
+    }
+    .scrollA{
+        width: 8px;
+    }
+    .rectangle h5{
+        font-size: 8px;
+    }
+    .rectangle-img{
+        width: 70px;
+    }
+    .c_nav{
+        font-size: 11px;
+    }
+    .e_nav{
+        font-size: 11px;
+    }
+    .logo{
+        font-size: 15px;
+    }
+    .sec_block{
+        margin-top: 150px;
+    }
+    .block1{
+        padding: 0;
+    }
+    .block3{
+        padding: 0;
+    }
+    .sec_block{
+        padding: 0;
+    }
+}
+@media(max-width:491px){
+    .social-text{
+        font-size: 14px;
+    }
+    .social{
+        width: 16px;
+    }
+    .rectangle h5{
+        font-size: 10px;
+    }
+    .rectangle-img{
+        display: none;
+    }
+    .nums{
+        font-size: 14px;
+    }
+    .bara{
+        width: 2.5px;
+    }
+    .acc{
+        display: none;
+    }
+    .c_nav{
+        width: 60%;
+        font-size: 8px;
+        align-items: center;
+    }
+    .logo{
+        width: 20%;
+        font-size: 13px;
+    }
+    .e_nav{
+        width: 20%;
+    }
+    .e{
+        margin: 0;
+    }
+    .cifri{
+        left: auto;
+    }
+    .cifri1{
+        left: 16px;
+    }
+    .zagolov1{
+        font-size: 15px;
+    }
+}
+@media(max-height:700px){
+    .imag2{
+        top: 450px;
+    }
 }
