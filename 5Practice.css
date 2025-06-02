@@ -603,6 +603,12 @@ a:hover{
     .zagolov1{
         font-size: 15px;
     }
+    .block1{
+        display: none;
+    }
+    .block3{
+        display: none;
+    }
 }
 @media(max-height:700px){
     .imag2{
