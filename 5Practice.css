@@ -16,6 +16,9 @@ body{
 .nav1{
     display: flex;
 }
+.social-text p{
+    margin-bottom: 0;
+}
 .e{
     margin-right: 3%;
 }
@@ -146,6 +149,8 @@ a:hover{
     justify-content: flex-end;
     display: flex;
     width: 50%;
+    position: fixed;
+    z-index: 2;
 }
 .slogan{
     font-size: 4rem;
@@ -166,6 +171,8 @@ a:hover{
     align-items: center;
     text-align: center;
     gap: 15px;
+    position: fixed;
+    z-index: 2;
 }
 .social-text p{
     margin-left: 20px;
