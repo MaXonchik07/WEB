@@ -77,8 +77,6 @@ for(let i = 0; i < questions.length; i++){
   }
   document.getElementById('quest').appendChild(q);
 }
-const selected = '';
-const answer = '';
 const savedAnsw = localStorage.getItem('saveAnswer');
 let result = '';
 document.getElementById('check').onclick = function(){
@@ -86,12 +84,12 @@ document.getElementById('check').onclick = function(){
   for(let i = 0; i < questions.length; i++){
     const selected = document.querySelector(`input[name="q${i}"]:checked`);
     const answer = selected ? selected.value : null;
-    if(answer === canswer[i]){
+    if(answer == canswer[i]){
       score++;
       result += `<p>Вопрос ${i + 1}: верно</p>`;
     } 
     else{
-      result += `<p>Вопрос ${i + 1}: неправильно. Ваш ответ: "${answer || 'не отвечено'}". Правильный: "${canswer[i]}"</p>`;
+      result += `<p>Вопрос ${i + 1}: неправильно. Ваш ответ: "${answer || '---'}". Правильный: "${canswer[i]}"</p>`;
     }
   }
   localStorage.setItem('saveAnswer', result);
